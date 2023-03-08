@@ -1,9 +1,18 @@
 <script setup>
-
+import Header from '../components/Header/Header.vue'
+import Main from '../components/Main/Main.vue'
 </script>
 
 <template>
-    <p><h1>Hello World</h1></p>
+  <div class="block bg-neutral-50 w-full h-full">
+    <Header />
+
+    <Main />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+div {
+  font-family: 'Montserrat', sans-serif;
+}
+</style>
