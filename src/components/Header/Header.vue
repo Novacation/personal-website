@@ -59,9 +59,7 @@ setInterval(() => {
             class="w-14 shadow-lg"
         /></a>
 
-        <a
-          href="https://www.linkedin.com/in/anderson-dias-celestino-nieto-522755165/"
-          target="_blank"
+        <a href="https://www.linkedin.com/in/andersoncelestino" target="_blank"
           ><img
             src="../../assets/linkedin_icon.svg"
             alt="Ícone do linkedin"

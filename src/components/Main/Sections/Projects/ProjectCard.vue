@@ -48,14 +48,17 @@ const toggleProjectTextStatus = () => {
       <slot name="content" />
     </p>
 
-    <font-awesome-icon
-      @click="toggleProjectTextStatus"
-      icon="angle-down"
-      class="text-neutral-100 w-8 h-8 cursor-pointer"
+    <div
+      class="flex justify-center items-center"
       :class="{
         'rotate-180': projectTextStatus,
         'mb-10': projectTextStatus
-      }" />
+      }">
+      <font-awesome-icon
+        @click="toggleProjectTextStatus"
+        icon="angle-down"
+        class="floatFx text-neutral-100 w-8 h-8 cursor-pointer" />
+    </div>
 
     <div class="w-full flex flex-col justify-start items-center">
       <h4 class="capitalize mb-0 drop-shadow-md text-green-100 font-bold">
